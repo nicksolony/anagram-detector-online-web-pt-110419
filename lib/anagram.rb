@@ -15,7 +15,7 @@ require "pry"
     
     list.each {|w| w.split.sort
     binding.pry
-      if w.split.sort == @word.split.sort
+      if w.split("").sort == @word.split("").sort
         anagrams << w
       end
     }
