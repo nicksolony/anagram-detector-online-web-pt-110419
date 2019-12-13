@@ -16,8 +16,7 @@ class Anagram
     list.each {|w| w.split.sort
       if w.split.sort == @word.split.sort
         anagrams << w
-        
-    }
+        }
     anagrams
   end
   
