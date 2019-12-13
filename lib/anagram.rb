@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-
+require "pry"
   attr_accessor :word
   
   
